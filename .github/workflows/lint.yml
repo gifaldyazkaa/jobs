@@ -40,8 +40,5 @@ jobs:
                   restore-keys: |
                       ${{ runner.os }}-pnpm-store-
 
-            - name: Install dependencies
-              run: pnpm install --no-frozen-lockfile
-
             - name: Check format
-              run: pnpm lint
+              run: pnpm dlx prettier -c .
