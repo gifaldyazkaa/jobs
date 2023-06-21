@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const { data } = await _useSanity('about');
+const { data } = await useFetch('/api/sanity?schema=about');
 </script>
 
 <template>
