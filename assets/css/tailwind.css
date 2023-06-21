@@ -5,3 +5,10 @@
 .card {
     @apply bg-[#373737] bg-opacity-40 rounded-xl;
 }
+
+::-webkit-scrollbar {
+    @apply w-2 bg-[#080808];
+}
+::-webkit-scrollbar-thumb {
+    @apply bg-[#111111] rounded-lg;
+}
