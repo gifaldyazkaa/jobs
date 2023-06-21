@@ -9,7 +9,7 @@ defineProps({
 
 <template>
     <div>
-        <h3 class="font-semibold my-2">Sanity.io content debug [Schema: {{ rootData._type }}]</h3>
+        <h3 class="font-semibold my-2">Sanity.io content debug [Reading: {{ rootData[0]._type }}]</h3>
         <code class="text-pink-500">{{ rootData }}</code>
     </div>
 </template>
