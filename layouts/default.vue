@@ -1,5 +1,9 @@
 <script setup lang="ts">
 useHead({
+    title: 'Jobs site | Gifaldy Azka',
+    htmlAttrs: {
+        lang: 'en',
+    },
     bodyAttrs: {
         class: 'bg-black text-white',
     },
