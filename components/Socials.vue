@@ -9,7 +9,7 @@ defineProps({
 
 <template>
     <div class="inline-flex flex-row my-2 text-[#A9A9A9]">
-        <a
+        <NuxtLink
             :href="social.url"
             target="_blank"
             rel="noopener noreferrer"
@@ -17,7 +17,7 @@ defineProps({
             v-for="social in socials"
         >
             <Icon :name="social.icon" size="32px" class="mr-2" />
-        </a>
+        </NuxtLink>
     </div>
 </template>
 
