@@ -1,8 +1,6 @@
 <script setup lang="ts">
 const { id } = useRoute().params;
-const sanity = useSanity();
-const query = groq`*[_type == "products"][_id == "${id}"][0]`;
-const { data }: any = await useAsyncData(`products`, () => sanity.fetch(query));
+const { data } = await useFetch(`/api/sanity?schema=products&prId=${id}`);
 const product = data;
 </script>
 
