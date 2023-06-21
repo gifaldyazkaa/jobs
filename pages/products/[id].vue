@@ -6,7 +6,9 @@ const product = data;
 
 <template>
     <div>
-        <NuxtLink to="/"><Icon name="ion:caret-back-outline" /> Go back</NuxtLink>
+        <NuxtLink to="/" class="p-2 px-4 rounded-lg hover:bg-[#202020] hover:transition-all"
+            ><Icon name="ion:caret-back-outline" /> Go back</NuxtLink
+        >
         <div class="w-full p-4 my-2 inline-flex align-middle">
             <Icon :name="product.icon" size="24rem" class="w-40 h-auto md:w-32 lg:w-14" />
             <div class="flex flex-col flex-grow flex-shrink ml-3">
