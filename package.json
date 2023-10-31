@@ -16,7 +16,7 @@
     "devDependencies": {
         "@nuxtjs/sanity": "1.7.3",
         "@nuxtjs/tailwindcss": "6.8.0",
-        "@types/node": "18",
+        "@types/node": "20",
         "nuxt": "3.6.1",
         "nuxt-icon": "0.4.1"
     }
